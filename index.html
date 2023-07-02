@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>LÊ DUY - JS Buổi 14</title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body style="height: 1400px">
+    <div class="container">
+      <h1>Bài 1 - Buổi 14</h1>
+      <div class="form-group">
+        <label for="">Số thứ 1</label>
+        <input type="number" class="form-control" id="so-t1" />
+      </div>
+      <div class="form-group">
+        <label for="">Số thứ 2</label>
+        <input type="number" class="form-control" id="so-t2" />
+      </div>
+      <div class="form-group">
+        <label for="">Số thứ 3</label>
+        <input type="number" class="form-control" id="so-t3" />
+      </div>
+      <button onclick="reA()" class="btn btn-danger">Sắp xếp</button>
+      <div id="kq1"></div>
+    </div>
+    <hr />
+    <div class="container">
+      <h1>Bài 2 - Buổi 14</h1>
+      <div class="form-group">
+        <label for="">Bạn là ai trong gia đình ?</label>
+        <select class="form-control" name="" id="who">
+          <option value="B">Bố</option>
+          <option value="M">Mẹ</option>
+          <option value="A">Anh trai</option>
+          <option value="E">Em gái</option>
+        </select>
+      </div>
+      <button onclick="greeting()" class="btn btn-danger">Gửi</button>
+      <div id="kq2"></div>
+    </div>
+
+    <hr />
+    <div class="container">
+      <h1>Bài 3 - Buổi 14</h1>
+      <div class="form-group">
+        <label for=""> Nhập số thứ 1</label>
+        <input type="number" class="form-control" id="so-thu-1" />
+      </div>
+      <div class="form-group">
+        <label for="">Nhập số thứ 2</label>
+        <input type="number" class="form-control" id="so-thu-2" />
+      </div>
+      <div class="form-group">
+        <label for="">Nhập số thứ 3</label>
+        <input type="number" class="form-control" id="so-thu-3" />
+      </div>
+      <button onclick="kq3()" class="btn btn-danger">Kết quả</button>
+      <div id="kq3"></div>
+    </div>
+
+    <hr />
+    <div class="container">
+      <h1>Bài 4 - Buổi 14</h1>
+      <div class="form-group">
+        <label for="">Nhập cạnh a</label>
+        <input type="number" class="form-control" id="cA" />
+      </div>
+      <div class="form-group">
+        <label for=""> Nhập cạnh b</label>
+        <input type="number" class="form-control" id="cB" />
+      </div>
+      <div class="form-group">
+        <label for="">Nhập cạnh c</label>
+        <input type="number" class="form-control" id="cC" />
+      </div>
+      <button onclick="kq4()" class="btn btn-danger">Xem kết quả</button>
+      <div id="kq4"></div>
+    </div>
+
+    <script src="./js.js"></script>
+  </body>
+</html>
